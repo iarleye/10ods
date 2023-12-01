@@ -427,3 +427,58 @@ footer{
 	padding-right:100px;
 	padding-bottom:15px;
 }
+@media (min-width:350px) and (max-width:920px)
+{
+	main{
+	display:grid;
+	grid-template-columns:40% 30% 30%;
+	grid-template-rows:auto;
+	grid-template-areas: 
+	"mage mage mage" 
+	"beca beca nada0"
+	"ob5 ob5 nada"
+	"te1 tex1 nada1"
+	"te2 tex2 nada2"
+	"te3 tex3 nada3"
+	"te4 tex4 nada4"
+	"te5 tex5 nada5"
+	"te6 tex6 nada6"
+	"te7 tex7 nada7"
+	"ob6 ob6 nada75"
+	"b b nada8"
+	"be be nada9"        
+	"b0 b0 nada10"
+	"linke linke linke";
+
+
+
+}
+
+@media (min-width:1370px)
+{
+	
+}
+
+@media (min-width:970px)
+{
+	
+}
+@media (min-width:600px)
+{
+
+	
+	
+	
+}
+@media (max-width:600px)
+{
+
+	
+}
+
+@media (min-width:1200px)
+{
+
+	
+}
+	
