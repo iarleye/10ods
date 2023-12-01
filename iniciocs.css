@@ -1,0 +1,197 @@
+body{
+	font-family:arial;
+	background:linear-gradient(to right,#f5c1cf,#f6ccd7,white,white);
+
+}
+header{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:space-around;
+	margin-bottom:125px;
+	font-family:arial;
+	margin-top:30px;
+}
+.headere{
+	
+}
+h1{
+	font-size:50px;
+	font-weight:700;
+}
+img{
+	width:493px;
+	height:443px;
+	float:left;
+	margin-top:22px;
+
+}
+article{
+	display:flex;
+
+}
+footer{
+	margin-left:55px;
+}
+aside{
+	margin-left:300px;
+	
+
+}
+#saib{
+	letter-spacing:2px;
+	color:black;
+	font-weight:bold;
+	font-family:arial;
+	font-size:14px;
+	text-decoration: none;
+	border-bottom:2px solid black;
+	padding-bottom:2px;
+	
+}
+#saib:hover{
+	color:#616161;
+}
+#titu{
+	font-size:25px;
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+}
+#co{
+	margin-left:25px;
+	text-decoration:none;
+	color:black;
+	font-size:14px;
+	
+}
+#co1{
+	font-size:14px;
+	margin-left:80px;
+	text-decoration:none;
+	color:#ff698e;
+}
+
+#co1:hover{
+	color:#fc3869;
+}
+p{
+	font-size:14px;
+	line-height:1.5;
+	margin-bottom:20px;
+	
+}
+h1{
+	font-size:40px;
+}
+h3{
+	font-weight:lighter;
+	font-size:15px;
+	padding-top:5px;
+}
+section{
+	margin-top:-15px;
+}
+@media (min-width:350px) and (max-width:920px)
+{
+	#co1{
+		margin-left:10px;
+	}
+	#co{
+		margin-left:6px;
+	}
+	aside{
+		margin-left:0px;
+	}
+	img{
+		width:395px;
+		height:340px;
+	}
+	footer{
+		margin-left:0px;
+	}
+	section{
+		display:flex;
+		flex-direction:column;
+	}
+
+}
+
+@media (min-width:1370px)
+{
+	section{
+		margin-left:55px;
+		
+	}
+	aside{
+		margin-top:50px;
+	}
+	footer{
+		margin-top:50px;
+	}
+}
+
+@media (min-width:970px)
+{
+	section{
+		display:flex;
+		flex-direction:column;
+
+	}
+	footer{
+		margin-left:300px;
+	}
+	aside{
+		margin-left:300px;
+	}
+}
+@media (min-width:600px)
+{
+	section{
+		display:flex;
+		flex-direction:column;
+	}
+	footer{
+		margin-left:150px;
+	}
+	aside{
+		margin-left:150px;
+	}
+	
+}
+@media (max-width:600px)
+{
+	section{
+		display:flex;
+		flex-direction:column;
+	
+	}
+	footer{
+		margin-left:0px;
+	}
+	aside{
+		margin-left:0px;
+	}
+}
+
+@media (min-width:1200px)
+{
+	img{
+		width:493px;
+		height:443px;
+		float:left;
+		margin-top:22px;
+	}
+	section{
+		display:flex;
+		flex-direction:row;
+		margin-top:-85px;
+	}
+	footer{
+		margin-left:55px;
+	}
+	aside{
+		margin-left:150px;
+	}
+}
+	

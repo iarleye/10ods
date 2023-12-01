@@ -1,0 +1,55 @@
+body{
+	background-color:#ce2363;
+	color:white;
+}
+#aha{
+	color:#ce2363;
+	margin-left:10px;
+	font-family:arial;
+	font-size:30px;
+}
+
+header{
+	background-color:white;
+	width:1688px;
+	margin-left:-10px;
+}
+
+a{
+	color:#ce2363;
+	font-size:15px;
+	font-weight:lighter;
+	font-family:sans-serif;
+	display: inline-block;
+	text-align:center;
+	background-color:white;
+	cursor:pointer;
+	padding:25px;
+	padding-right:50px;
+	padding-left:50px;
+	text-decoration:none;
+	margin-bottom:-290px;
+	
+}
+
+footer{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-top:50px;
+	
+}
+
+.comen{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	background: url("welivewelovewelie.jpg");
+	background-size:cover;
+	height:900px;
+	
+}
+textarea{
+	opacity:0.7;
+}

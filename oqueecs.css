@@ -1,0 +1,430 @@
+body{
+	background-color: #ce2363;
+	font-family:serif;
+	overflow-x:hidden;
+	color:white;
+	
+}
+main{
+	display:grid;
+	grid-template-columns:40% 30% 30%;
+	grid-template-rows:auto;
+	grid-template-areas: 
+	"mage mage mage" 
+	"beca beca nada0"
+	"ob5 ob5 nada"
+	"te1 tex1 nada1"
+	"te2 tex2 nada2"
+	"te3 tex3 nada3"
+	"te4 tex4 nada4"
+	"te5 tex5 nada5"
+	"te6 tex6 nada6"
+	"te7 tex7 nada7"
+	"ob6 ob6 nada75"
+	"b b nada8"
+	"be be nada9"        
+	"b0 b0 nada10"
+	"linke linke linke";
+	margin-left:280px;
+	margin-right:100px;
+	
+}
+.mage{
+	background-image:url("dade2.jpg"); /*https://www.estrategiaods.org.br/o-ods-10-e-as-desigualdades-sociais/  */
+	width:2200px;
+	height:1780px;
+	margin-left:-288px;
+	margin-top:-200px;
+	background-repeat:no-repeat;
+	grid-area:mage;
+	background-size:80%;
+	font-family:sans-serif;
+}
+a{
+	text-decoration:none;
+}
+
+#tchu{
+	color:#ce2363;
+	font-size:19px;
+	margin-left:10px;
+	margin-left:5px;
+	font-weight:bold;
+}
+#tchu:hover{
+	text-decoration:underline;
+}
+.oi{
+	background-color:white;
+	width:300px;
+	
+}
+#nome{
+	margin-top:500px;
+	margin-right:450px;
+	text-align:center;
+	font-size:50px;
+	line-height:15px;
+	
+}
+
+.linke{
+	grid-area:linke;
+	margin-top:63px;
+	margin-left:-30px;
+	padding:30px;
+	display:flex;
+	justify-content:space-between;
+}
+.line0{
+	
+}
+.linke1{
+	
+}
+.linke2{
+	margin-left:5px;
+}
+header{
+	grid-area:header;
+	height:200px;
+	margin-left:-5px;
+	color:white;
+	
+	
+}
+h1{
+	font-size:35px;
+}
+h2{
+	font-family:sans-serif;
+}
+aside{
+	grid-area:aside;
+	padding-right:1250px;
+	background-color:white;
+	height:50px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:23px;
+	color:#ce2363;
+	
+}
+nav{
+	grid-area:nav;
+	border:1px solid;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	background-color:#de1768;
+	justify-content:end;
+	font-weight:bold;
+	font-family:arial;
+}
+
+#beca{
+	grid-area:beca;
+	margin-top:-750px;
+	
+}
+
+#bec{
+	grid-area:bec;
+
+}
+#be{
+	grid-area:be;
+
+}
+#b{
+	grid-area:b;
+	margin-bottom:80px;
+}
+#b0{
+	grid-area:b0;
+
+}
+
+footer{
+	grid-area:footer;
+	margin-top:80px;
+	margin-left:-250px;
+	color:white;
+	font-size:23px;
+	
+}
+
+.ob5{
+	grid-area:ob5;
+	margin-top:-250px;
+}
+.ob6{
+	grid-area:ob6;
+	margin-bottom:80px;
+}
+
+
+#ue{
+	font-size:25px;
+	font-family:serif;
+	padding-left:5px;
+}
+#uebet{
+	font-size:35px;
+	
+	font-weight:bold;
+}
+
+#uebete{
+	font-size:25px;
+	
+}
+
+#uebete1{
+	font-size:25px;
+}
+#uebete2{
+	font-size:25px;
+}
+#linkelin{
+	font-size:13px;
+	font-weight:lighter;
+	color:#ce2363;
+	font-family:sans-serif;
+	display: inline-block;
+	text-align:center;
+	background-color:white;
+	cursor:pointer;
+	padding:20px;
+}
+
+#linkedino{
+	font-size:13px;
+	color:#ce2363;
+	padding:5px;
+	border-radius:0px;
+	font-family:sans-serif;
+	font-weight:lighter;
+	display: inline-block;
+	text-align:center;
+	background-color:white;
+	cursor:pointer;
+	padding:20px;
+}
+#linkedino1{
+	font-size:13px;
+	color:#ce2363;
+	padding:5px;
+	border-radius:0px;
+	font-family:sans-serif;
+	font-weight:lighter;
+	display: inline-block;
+	text-align:center;
+	background-color:white;
+	cursor:pointer;
+	padding:20px;
+	
+}
+
+.linkere{
+	display:flex;
+	
+}
+.strik{
+	font-size:165px;
+	text-decoration:none;
+	margin-top:100px;
+
+}
+
+
+
+
+
+
+
+
+.nada0{
+	grid-area:nada0;
+
+}
+.nada{
+	grid-area:nada;
+
+}
+.nada2{
+	grid-area:nada2;
+
+}
+.nada3{
+	grid-area:nada3;
+
+}
+.nada4{
+	grid-area:nada4;
+
+}
+.nada5{
+	grid-area:nada5;
+
+}
+.nada6{
+	grid-area:nada6;
+
+}
+.nada7{
+	grid-area:nada6;
+
+}
+.nada75{
+	grid-area:nada75;
+
+}
+.nada8{
+	grid-area:nada8;
+
+}
+.nada9{
+	grid-area:nada9;
+
+}
+.nada10{
+	grid-area:nada10;
+
+}
+.nada11{
+	grid-area:nada11;
+
+}
+.nada12{
+	grid-area:nada12;
+
+}
+
+.te1{
+	grid-area:te1;
+	font-family:serif;
+	background-color:white;
+	color:#5f727f;
+	border-radius:4px 0px 0px 0px;
+	display:flex;
+	align-items:center;
+	padding-left:80px;
+	font-size:12px;
+}
+.tex1{
+	grid-area:tex1;
+	background-color:white;
+	color:#5f727f;
+	border-radius:0px 4px 0px 0px;
+	font-weight:lighter;
+	padding-right:100px;
+	padding-top:15px;
+}
+.te2{
+	grid-area:te2;
+	font-family:serif;
+	background-color:white;
+	color:#5f727f;
+	display:flex;
+	align-items:center;
+	padding-left:80px;
+	font-size:12px;
+}
+.tex2{
+	grid-area:tex2;
+	background-color:white;
+	color:#5f727f;
+	font-weight:lighter;
+	padding-right:100px;
+}
+.te3{
+	grid-area:te3;
+    font-family:serif;
+	background-color:white;
+	color:#5f727f;
+	display:flex;
+	align-items:center;
+	padding-left:80px;
+	font-size:12px;
+}
+.tex3{
+	grid-area:tex3;
+	background-color:white;
+	color:#5f727f;
+	font-weight:lighter;
+	padding-right:100px;
+}
+.te4{
+	grid-area:te4;
+    font-family:serif;
+	background-color:white;
+	color:#5f727f;
+	display:flex;
+	align-items:center;
+	padding-left:80px;
+	font-size:12px;
+}
+.tex4{
+	grid-area:tex4;
+	background-color:white;
+	color:#5f727f;
+	font-weight:lighter;
+	padding-right:100px;
+}
+.te5{
+	grid-area:te5;
+    font-family:serif;
+	background-color:white;
+	color:#5f727f;
+	display:flex;
+	align-items:center;
+	padding-left:80px;
+	font-size:12px;
+}
+.tex5{
+	grid-area:tex5;
+	background-color:white;
+	color:#5f727f;
+	font-weight:lighter;
+	padding-right:100px;
+}
+.te6{
+	grid-area:te6;
+    font-family:serif;
+	background-color:white;
+	color:#5f727f;
+	display:flex;
+	align-items:center;
+	padding-left:80px;
+	font-size:12px;
+}
+.tex6{
+	grid-area:tex6;
+	background-color:white;
+	color:#5f727f;
+	font-weight:lighter;
+	padding-right:100px;
+}
+.te7{
+	grid-area:te7;
+    font-family:serif;
+	background-color:white;
+	color:#5f727f;
+	border-radius:0px 0px 0px 4px;
+	display:flex;
+	align-items:center;
+	padding-left:80px;
+	padding-bottom:50px;
+	font-size:12px;
+}
+.tex7{
+	grid-area:tex7;
+	background-color:white;
+	color:#5f727f;
+	border-radius:0px 0px 4px 0px;
+	font-weight:lighter;
+	padding-right:100px;
+	padding-bottom:15px;
+}
