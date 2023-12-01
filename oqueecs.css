@@ -31,7 +31,7 @@ main{
 }
 .mage{
 	background-image:url("dade2.jpg"); /*https://www.estrategiaods.org.br/o-ods-10-e-as-desigualdades-sociais/  */
-	width:2200px;
+	width:2350px;
 	height:1780px;
 	margin-left:-288px;
 	margin-top:-200px;
@@ -63,7 +63,7 @@ a{
 	margin-top:500px;
 	margin-right:450px;
 	text-align:center;
-	font-size:50px;
+	font-size:40px;
 	line-height:15px;
 	
 }
@@ -107,7 +107,6 @@ aside{
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	font-size:23px;
 	color:#ce2363;
 	
 }
@@ -157,7 +156,7 @@ footer{
 
 .ob5{
 	grid-area:ob5;
-	margin-top:-250px;
+	margin-top:-150px;
 }
 .ob6{
 	grid-area:ob6;
@@ -232,7 +231,7 @@ footer{
 	
 }
 .strik{
-	font-size:165px;
+	font-size:155px;
 	text-decoration:none;
 	margin-top:100px;
 
