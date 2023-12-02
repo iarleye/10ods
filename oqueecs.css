@@ -8,7 +8,6 @@ body{
 main{
 	display:grid;
 	grid-template-columns:40% 30% 30%;
-	grid-template-rows:auto;
 	grid-template-areas: 
 	"beca beca nada0"
 	"ob5 ob5 nada"
@@ -24,8 +23,8 @@ main{
 	"be be nada9"        
 	"b0 b0 nada10"
 	"linke linke linke";
-	margin-left:280px;
-	margin-right:100px;
+	margin-left:0px;
+	margin-right:0px;
 	
 }
 .mage{
