@@ -101,7 +101,7 @@ aside{
 	align-items:center;
 	color:#ce2363;
 	width:1500px;
-	
+	overflow-x:hidden;
 }
 nav{
 	grid-area:nav;
