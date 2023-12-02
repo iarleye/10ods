@@ -6,13 +6,16 @@ body{
 	color:#ce2363;
 	margin-left:10px;
 	font-family:arial;
-	font-size:30px;
+	font-size:25px;
 }
 
 header{
 	background-color:white;
-	width:1688px;
+	width:1488px;
 	margin-left:-10px;
+	padding-right:13px;
+	display:flex;
+	margin-top:-10px;
 }
 
 a{
@@ -36,7 +39,7 @@ footer{
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	margin-top:50px;
+	margin-top:80px;
 	
 }
 
@@ -47,9 +50,37 @@ footer{
 	align-items:center;
 	background: url("welivewelovewelie.jpg");
 	background-size:cover;
-	height:900px;
-	
+	background-repeat:no-repeat;
+	background-size:100%;
+	padding-bottom:250px;
 }
 textarea{
 	opacity:0.7;
+}
+
+@media (min-width:350px) and (max-width:920px){
+
+	#aha{
+		font-size:9.5px;
+	}
+	header{
+		width:526px;
+		margin-left:-13px;
+		padding-right:16px;
+	}
+	footer{
+		margin-top:0px;
+}
+	.comen{
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+		background: url("welivewelovewelie.jpg");
+		background-size:cover;
+		background-repeat:no-repeat;
+		background-size:100%;
+		padding-top:300px;
+	
+}
 }
