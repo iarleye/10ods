@@ -10,7 +10,6 @@ main{
 	grid-template-columns:40% 30% 30%;
 	grid-template-rows:auto;
 	grid-template-areas: 
-	"mage mage mage" 
 	"beca beca nada0"
 	"ob5 ob5 nada"
 	"te1 tex1 nada1"
@@ -31,14 +30,14 @@ main{
 }
 .mage{
 	background-image:url("dade2.jpg"); /*https://www.estrategiaods.org.br/o-ods-10-e-as-desigualdades-sociais/  */
-	width:2350px;
-	height:1780px;
-	margin-left:-288px;
-	margin-top:-200px;
+	margin-top:-10px;
+	margin-left:-10px;
+	margin-right:-10px;
+	padding:205px;
 	background-repeat:no-repeat;
-	grid-area:mage;
-	background-size:80%;
+	background-size:100%;
 	font-family:sans-serif;
+
 }
 a{
 	text-decoration:none;
@@ -48,7 +47,6 @@ a{
 	color:#ce2363;
 	font-size:19px;
 	margin-left:10px;
-	margin-left:5px;
 	font-weight:bold;
 }
 #tchu:hover{
@@ -60,12 +58,9 @@ a{
 	
 }
 #nome{
-	margin-top:500px;
-	margin-right:450px;
-	text-align:center;
 	font-size:40px;
-	line-height:15px;
-	margin-left:-500px;
+	
+	
 }
 
 .linke{
@@ -86,11 +81,9 @@ a{
 	margin-left:5px;
 }
 header{
-	grid-area:header;
-	height:200px;
-	margin-left:-5px;
+	width:1500px;
 	color:white;
-	
+	margin-left:-205px;
 	
 }
 h1{
@@ -100,14 +93,14 @@ h2{
 	font-family:sans-serif;
 }
 aside{
-	grid-area:aside;
-	padding-right:1250px;
+
 	background-color:white;
 	height:50px;
 	display:flex;
-	justify-content:center;
+	padding-left:150px;
 	align-items:center;
 	color:#ce2363;
+	width:1500px;
 	
 }
 nav{
@@ -124,7 +117,7 @@ nav{
 
 #beca{
 	grid-area:beca;
-	margin-top:-750px;
+
 	
 }
 
@@ -156,7 +149,7 @@ footer{
 
 .ob5{
 	grid-area:ob5;
-	margin-top:-150px;
+	
 }
 .ob6{
 	grid-area:ob6;
@@ -233,13 +226,35 @@ footer{
 .strik{
 	font-size:155px;
 	text-decoration:none;
-	margin-top:100px;
+	
 
 }
 
+@media (min-width:350px) and (max-width:920px){
+	main{
+	display:grid;
+	grid-template-columns:50% 50%;
+	grid-template-rows:auto;
+	grid-template-areas: 
+	"beca beca "
+	"ob5 ob5"
+	"te1 tex1"
+	"te2 tex2 "
+	"te3 tex3 "
+	"te4 tex4 "
+	"te5 tex5"
+	"te6 tex6 "
+	"te7 tex7 "
+	"ob6 ob6 "
+	"b b "
+	"be be "        
+	"b0 b0 "
+	"linke linke";
+	margin-left:0px;
+	margin-right:0px;
+	}
 
-
-
+}
 
 
 
