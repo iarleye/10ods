@@ -230,7 +230,7 @@ footer{
 
 }
 
-@media (min-width:350px) and (max-width:920px){
+@media (min-width:300px) and (max-width:920px){
 	main{
 	display:grid;
 	grid-template-columns:50% 50%;
