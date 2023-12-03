@@ -259,11 +259,11 @@ footer{
 }
 header{
 	margin-top:-150px;
-
+	
 }
 aside{
 	height:25px;
-
+	overflow-x:hidden;
 }
 .strik{
 	font-size:55px;
