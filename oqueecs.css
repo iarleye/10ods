@@ -189,10 +189,8 @@ footer{
 	font-weight:bold;
 	color:#ce2363;
 	font-family:sans-serif;
-	display: inline-block;
 	text-align:center;
 	background-color:white;
-	cursor:pointer;
 	padding:20px;
 }
 
@@ -203,10 +201,8 @@ footer{
 	border-radius:0px;
 	font-family:sans-serif;
 	font-weight:bold;
-	display: inline-block;
 	text-align:center;
 	background-color:white;
-	cursor:pointer;
 	padding:20px;
 }
 #linkedino1{
@@ -216,10 +212,8 @@ footer{
 	border-radius:0px;
 	font-family:sans-serif;
 	font-weight:bold;
-	display: inline-block;
 	text-align:center;
 	background-color:white;
-	cursor:pointer;
 	padding:20px;
 	
 }
